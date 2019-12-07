@@ -24,13 +24,17 @@ hs_err_pid*
 
 .attach_pid*
 target/
-!.mvn/wrapper/maven-wrapper.jar
+
+# Maven Wrapper Files #
+.mvn/
+mvnw*
 
 ### IDE Generated Files ###
 # STS (Eclipse) Files
 .apt_generated
 .classpath
 .factorybean
+.factorypath
 .project
 .settings
 .springBeans
