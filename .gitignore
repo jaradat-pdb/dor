@@ -21,4 +21,34 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
 .attach_pid*
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### IDE Generated Files ###
+# STS (Eclipse) Files
+.apt_generated
+.classpath
+.factorybean
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA Files
+.idea
+*.iws
+*.iml
+*.ipr
+
+# NetBeans Files
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+//
+build/
+
+# VS Code Files
+.vscode/
